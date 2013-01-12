@@ -499,6 +499,12 @@ config TEGRA_CPU_OVERCLOCK
 	help
 	  Tegra3 CPU overclocking
 
+config TEGRA3_GAMING_FIX
+	bool "CPU Limiter for Quadcore Gaming"
+	default n
+	help
+	  CPU Limiter for Quadcore Gaming
+
 config TEGRA_STAT_MON
         bool "Enable H/W statistics monitor"
         depends on ARCH_TEGRA_2x_SOC
